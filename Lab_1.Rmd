@@ -105,4 +105,11 @@ index_education=function(grade){
   
 }
 ```
+#8 MATH UTILITIES
+
+```{r}
+score_mean=c(mean((results_students[,c(1:4)])))
+students_grades_df
+```
+
 
