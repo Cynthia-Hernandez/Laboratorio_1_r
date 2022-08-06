@@ -102,7 +102,7 @@ students_projection(results_students)
 
 ```{r}
 index_education=function(grade){
-  
+  index_education=(1+(grade/100))/(2)
 }
 ```
 #8 MATH UTILITIES
