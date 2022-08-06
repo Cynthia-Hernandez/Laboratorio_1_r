@@ -106,6 +106,11 @@ index_education=function(grade){
 }
 students_grades_df[,c(1:4)]
 ```
+```{r}
+lapply(students_grades_df, index_education)
+```
+
+
 #8 MATH UTILITIES
 
 ```{r}
